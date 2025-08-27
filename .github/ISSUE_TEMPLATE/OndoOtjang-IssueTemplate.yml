@@ -17,6 +17,6 @@ body:
       label: TODO
       description: 작업 TODO를 적어주세요
       placeholder: 
-        - [ ] TODO1
-        - [ ] TODO2
-        - [ ] TODO3
+        [ ] TODO1
+        [ ] TODO2
+        [ ] TODO3
