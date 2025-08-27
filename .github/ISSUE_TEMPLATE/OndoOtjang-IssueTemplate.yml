@@ -1,13 +1,13 @@
-name: 온도옷장 이슈 템플릿
-description: 온도옷장 통합 이슈 템플릿
+name: "온도옷장 이슈 템플릿"
+description: "온도옷장 통합 이슈 템플릿"
 
 body:
 - type: textarea
    id: explain
    attributes:
      label: 작업 설명
-     description: 작업할 내용을 설명해주세요.
-     placeholder: ex) 날씨별 옷 추천 기능 구현
+     description: "작업할 내용을 설명해주세요."
+     placeholder: "ex) 날씨별 옷 추천 기능 구현"
     validations:
       required: true
 - type: checkboxes
