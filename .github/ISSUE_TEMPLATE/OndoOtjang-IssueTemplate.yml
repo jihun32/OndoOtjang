@@ -11,13 +11,12 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: todo
+  - type: textarea
+    id: TODO
     attributes:
       label: TODO
-      options:
-        - label: Task1
-        - label: Task2
-        - label: Task3
-    validations:
-      required: true
+      description: 작업 TODO를 적어주세요
+      placeholder: 
+        - [ ] TODO1
+        - [ ] TODO2
+        - [ ] TODO3
