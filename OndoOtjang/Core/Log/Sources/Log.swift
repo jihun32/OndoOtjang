@@ -29,7 +29,7 @@ public enum Log {
         
         fileprivate var osLogType: OSLogType {
             switch self {
-            case .debug:
+            case .debug, .custom:
                 return .debug
             case .info:
                 return .info
@@ -37,8 +37,6 @@ public enum Log {
                 return .default
             case .error:
                 return .error
-            case .custom(let categoryName):
-                return .debug
             }
         }
     }
@@ -94,7 +92,7 @@ private extension Log {
             logger.log("🌐 \(logMessage, privacy: .public)")
         case .error:
             logger.error("🚨 \(logMessage, privacy: .public)")
-        case .custom(category: let category):
+        case .custom:
             logger.log("✅ \(logMessage, privacy: .public)")
         }
         logger.log(level: level.osLogType, "\(logMessage, privacy: .public)")
