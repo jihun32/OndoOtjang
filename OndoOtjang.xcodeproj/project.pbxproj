@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		F449CA7B2E5F3A3700A1FDFF /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F449CA7A2E5F3A3700A1FDFF /* ComposableArchitecture */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		F449CA3F2E5F20A000A1FDFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -33,41 +29,9 @@
 		F449CA482E5F20A000A1FDFF /* OndoOtjangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OndoOtjangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F449CA692E5F375600A1FDFF /* Exceptions for "OndoOtjang" folder in "OndoOtjang" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Source/Test/OndoOtjangTests/OndoOtjangTests.swift,
-				Source/Test/OndoOtjangUITests/OndoOtjangUITests.swift,
-				Source/Test/OndoOtjangUITests/OndoOtjangUITestsLaunchTests.swift,
-			);
-			target = F449CA2E2E5F209E00A1FDFF /* OndoOtjang */;
-		};
-		F449CA6A2E5F375600A1FDFF /* Exceptions for "OndoOtjang" folder in "OndoOtjangTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Source/Test/OndoOtjangTests/OndoOtjangTests.swift,
-			);
-			target = F449CA3D2E5F20A000A1FDFF /* OndoOtjangTests */;
-		};
-		F449CA6B2E5F375600A1FDFF /* Exceptions for "OndoOtjang" folder in "OndoOtjangUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Source/Test/OndoOtjangUITests/OndoOtjangUITests.swift,
-				Source/Test/OndoOtjangUITests/OndoOtjangUITestsLaunchTests.swift,
-			);
-			target = F449CA472E5F20A000A1FDFF /* OndoOtjangUITests */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F449CA312E5F209E00A1FDFF /* OndoOtjang */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F449CA692E5F375600A1FDFF /* Exceptions for "OndoOtjang" folder in "OndoOtjang" target */,
-				F449CA6A2E5F375600A1FDFF /* Exceptions for "OndoOtjang" folder in "OndoOtjangTests" target */,
-				F449CA6B2E5F375600A1FDFF /* Exceptions for "OndoOtjang" folder in "OndoOtjangUITests" target */,
-			);
 			path = OndoOtjang;
 			sourceTree = "<group>";
 		};
@@ -78,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F449CA7B2E5F3A3700A1FDFF /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +100,6 @@
 			);
 			name = OndoOtjang;
 			packageProductDependencies = (
-				F449CA7A2E5F3A3700A1FDFF /* ComposableArchitecture */,
 			);
 			productName = OndoOtjang;
 			productReference = F449CA2F2E5F209E00A1FDFF /* OndoOtjang.app */;
@@ -216,7 +178,6 @@
 			mainGroup = F449CA262E5F209E00A1FDFF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				F449CA792E5F3A3700A1FDFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F449CA302E5F209E00A1FDFF /* Products */;
@@ -601,25 +562,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F449CA792E5F3A3700A1FDFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.22.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F449CA7A2E5F3A3700A1FDFF /* ComposableArchitecture */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F449CA792E5F3A3700A1FDFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F449CA272E5F209E00A1FDFF /* Project object */;
 }
