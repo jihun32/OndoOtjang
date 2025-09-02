@@ -29,9 +29,22 @@
 		F449CA482E5F20A000A1FDFF /* OndoOtjangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OndoOtjangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F4A36B4E2E6713BB009A76AD /* Exceptions for "OndoOtjang" folder in "OndoOtjang" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/Log,
+			);
+			target = F449CA2E2E5F209E00A1FDFF /* OndoOtjang */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F449CA312E5F209E00A1FDFF /* OndoOtjang */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F4A36B4E2E6713BB009A76AD /* Exceptions for "OndoOtjang" folder in "OndoOtjang" target */,
+			);
 			path = OndoOtjang;
 			sourceTree = "<group>";
 		};
