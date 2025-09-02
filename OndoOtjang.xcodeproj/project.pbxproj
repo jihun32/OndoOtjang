@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		F449CA7B2E5F3A3700A1FDFF /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F449CA7A2E5F3A3700A1FDFF /* ComposableArchitecture */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		F449CA3F2E5F20A000A1FDFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -46,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F449CA7B2E5F3A3700A1FDFF /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +100,6 @@
 			);
 			name = OndoOtjang;
 			packageProductDependencies = (
-				F449CA7A2E5F3A3700A1FDFF /* ComposableArchitecture */,
 			);
 			productName = OndoOtjang;
 			productReference = F449CA2F2E5F209E00A1FDFF /* OndoOtjang.app */;
@@ -184,7 +178,6 @@
 			mainGroup = F449CA262E5F209E00A1FDFF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				F449CA792E5F3A3700A1FDFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F449CA302E5F209E00A1FDFF /* Products */;
@@ -569,25 +562,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F449CA792E5F3A3700A1FDFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.22.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F449CA7A2E5F3A3700A1FDFF /* ComposableArchitecture */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F449CA792E5F3A3700A1FDFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F449CA272E5F209E00A1FDFF /* Project object */;
 }
