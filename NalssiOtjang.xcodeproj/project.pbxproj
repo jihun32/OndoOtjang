@@ -24,28 +24,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F449CA2F2E5F209E00A1FDFF /* OndoOtjang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OndoOtjang.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F449CA3E2E5F20A000A1FDFF /* OndoOtjangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OndoOtjangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F449CA482E5F20A000A1FDFF /* OndoOtjangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OndoOtjangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F449CA2F2E5F209E00A1FDFF /* NalssiOtjang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NalssiOtjang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F449CA3E2E5F20A000A1FDFF /* NalssiOtjangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NalssiOtjangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F449CA482E5F20A000A1FDFF /* NalssiOtjangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NalssiOtjangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F4A36B4E2E6713BB009A76AD /* Exceptions for "OndoOtjang" folder in "OndoOtjang" target */ = {
+		F4A36B4E2E6713BB009A76AD /* Exceptions for "NalssiOtjang" folder in "NalssiOtjang" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Core/Log,
 			);
-			target = F449CA2E2E5F209E00A1FDFF /* OndoOtjang */;
+			target = F449CA2E2E5F209E00A1FDFF /* NalssiOtjang */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F449CA312E5F209E00A1FDFF /* OndoOtjang */ = {
+		F449CA312E5F209E00A1FDFF /* NalssiOtjang */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F4A36B4E2E6713BB009A76AD /* Exceptions for "OndoOtjang" folder in "OndoOtjang" target */,
+				F4A36B4E2E6713BB009A76AD /* Exceptions for "NalssiOtjang" folder in "NalssiOtjang" target */,
 			);
-			path = OndoOtjang;
+			path = NalssiOtjang;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -78,7 +78,7 @@
 		F449CA262E5F209E00A1FDFF = {
 			isa = PBXGroup;
 			children = (
-				F449CA312E5F209E00A1FDFF /* OndoOtjang */,
+				F449CA312E5F209E00A1FDFF /* NalssiOtjang */,
 				F449CA302E5F209E00A1FDFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,9 +86,9 @@
 		F449CA302E5F209E00A1FDFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F449CA2F2E5F209E00A1FDFF /* OndoOtjang.app */,
-				F449CA3E2E5F20A000A1FDFF /* OndoOtjangTests.xctest */,
-				F449CA482E5F20A000A1FDFF /* OndoOtjangUITests.xctest */,
+				F449CA2F2E5F209E00A1FDFF /* NalssiOtjang.app */,
+				F449CA3E2E5F20A000A1FDFF /* NalssiOtjangTests.xctest */,
+				F449CA482E5F20A000A1FDFF /* NalssiOtjangUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F449CA2E2E5F209E00A1FDFF /* OndoOtjang */ = {
+		F449CA2E2E5F209E00A1FDFF /* NalssiOtjang */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F449CA522E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "OndoOtjang" */;
+			buildConfigurationList = F449CA522E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "NalssiOtjang" */;
 			buildPhases = (
 				F449CA2B2E5F209E00A1FDFF /* Sources */,
 				F449CA2C2E5F209E00A1FDFF /* Frameworks */,
@@ -109,18 +109,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F449CA312E5F209E00A1FDFF /* OndoOtjang */,
+				F449CA312E5F209E00A1FDFF /* NalssiOtjang */,
 			);
-			name = OndoOtjang;
+			name = NalssiOtjang;
 			packageProductDependencies = (
 			);
 			productName = OndoOtjang;
-			productReference = F449CA2F2E5F209E00A1FDFF /* OndoOtjang.app */;
+			productReference = F449CA2F2E5F209E00A1FDFF /* NalssiOtjang.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F449CA3D2E5F20A000A1FDFF /* OndoOtjangTests */ = {
+		F449CA3D2E5F20A000A1FDFF /* NalssiOtjangTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F449CA552E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "OndoOtjangTests" */;
+			buildConfigurationList = F449CA552E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "NalssiOtjangTests" */;
 			buildPhases = (
 				F449CA3A2E5F20A000A1FDFF /* Sources */,
 				F449CA3B2E5F20A000A1FDFF /* Frameworks */,
@@ -131,16 +131,16 @@
 			dependencies = (
 				F449CA402E5F20A000A1FDFF /* PBXTargetDependency */,
 			);
-			name = OndoOtjangTests;
+			name = NalssiOtjangTests;
 			packageProductDependencies = (
 			);
 			productName = OndoOtjangTests;
-			productReference = F449CA3E2E5F20A000A1FDFF /* OndoOtjangTests.xctest */;
+			productReference = F449CA3E2E5F20A000A1FDFF /* NalssiOtjangTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F449CA472E5F20A000A1FDFF /* OndoOtjangUITests */ = {
+		F449CA472E5F20A000A1FDFF /* NalssiOtjangUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F449CA582E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "OndoOtjangUITests" */;
+			buildConfigurationList = F449CA582E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "NalssiOtjangUITests" */;
 			buildPhases = (
 				F449CA442E5F20A000A1FDFF /* Sources */,
 				F449CA452E5F20A000A1FDFF /* Frameworks */,
@@ -151,11 +151,11 @@
 			dependencies = (
 				F449CA4A2E5F20A000A1FDFF /* PBXTargetDependency */,
 			);
-			name = OndoOtjangUITests;
+			name = NalssiOtjangUITests;
 			packageProductDependencies = (
 			);
 			productName = OndoOtjangUITests;
-			productReference = F449CA482E5F20A000A1FDFF /* OndoOtjangUITests.xctest */;
+			productReference = F449CA482E5F20A000A1FDFF /* NalssiOtjangUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F449CA2A2E5F209E00A1FDFF /* Build configuration list for PBXProject "OndoOtjang" */;
+			buildConfigurationList = F449CA2A2E5F209E00A1FDFF /* Build configuration list for PBXProject "NalssiOtjang" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -197,9 +197,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F449CA2E2E5F209E00A1FDFF /* OndoOtjang */,
-				F449CA3D2E5F20A000A1FDFF /* OndoOtjangTests */,
-				F449CA472E5F20A000A1FDFF /* OndoOtjangUITests */,
+				F449CA2E2E5F209E00A1FDFF /* NalssiOtjang */,
+				F449CA3D2E5F20A000A1FDFF /* NalssiOtjangTests */,
+				F449CA472E5F20A000A1FDFF /* NalssiOtjangUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,12 +255,12 @@
 /* Begin PBXTargetDependency section */
 		F449CA402E5F20A000A1FDFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F449CA2E2E5F209E00A1FDFF /* OndoOtjang */;
+			target = F449CA2E2E5F209E00A1FDFF /* NalssiOtjang */;
 			targetProxy = F449CA3F2E5F20A000A1FDFF /* PBXContainerItemProxy */;
 		};
 		F449CA4A2E5F20A000A1FDFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F449CA2E2E5F209E00A1FDFF /* OndoOtjang */;
+			target = F449CA2E2E5F209E00A1FDFF /* NalssiOtjang */;
 			targetProxy = F449CA492E5F20A000A1FDFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -469,7 +469,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OndoOtjang.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OndoOtjang";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NalssiOtjang.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NalssiOtjang";
 			};
 			name = Debug;
 		};
@@ -491,7 +491,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OndoOtjang.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OndoOtjang";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NalssiOtjang.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NalssiOtjang";
 			};
 			name = Release;
 		};
@@ -538,7 +538,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F449CA2A2E5F209E00A1FDFF /* Build configuration list for PBXProject "OndoOtjang" */ = {
+		F449CA2A2E5F209E00A1FDFF /* Build configuration list for PBXProject "NalssiOtjang" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F449CA502E5F20A000A1FDFF /* Debug */,
@@ -547,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F449CA522E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "OndoOtjang" */ = {
+		F449CA522E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "NalssiOtjang" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F449CA532E5F20A000A1FDFF /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F449CA552E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "OndoOtjangTests" */ = {
+		F449CA552E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "NalssiOtjangTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F449CA562E5F20A000A1FDFF /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F449CA582E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "OndoOtjangUITests" */ = {
+		F449CA582E5F20A000A1FDFF /* Build configuration list for PBXNativeTarget "NalssiOtjangUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F449CA592E5F20A000A1FDFF /* Debug */,
