@@ -1,6 +1,6 @@
 //
-//  OndoOtjangApp.swift
-//  OndoOtjang
+//  NalssiOtjangApp.swift
+//  NalssiOtjang
 //
 //  Created by home on 8/27/25.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct OndoOtjangApp: App {
+struct NalssiOtjangApp: App {
     var body: some Scene {
         WindowGroup {
             EmptyView()
