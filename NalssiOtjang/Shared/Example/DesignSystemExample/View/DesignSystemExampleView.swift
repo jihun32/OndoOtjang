@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
-import SharedDesignSystem
 
 struct DesignSystemExampleView: View {
     var body: some View {
         NavigationStack {
-            
+            List {
+                NavigationLink("Color System", destination: ColorSystemView())
+            }
         }
     }
 }

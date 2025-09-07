@@ -8,7 +8,7 @@
 import SwiftUI
 
 extension Color {
-    static func customColor(_ color: NOColor) -> Color {
+    public static func customColor(_ color: NOColor) -> Color {
         return color.color
     }
 }
